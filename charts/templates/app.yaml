@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: onur-app
+  name: real-app
 spec:
   project: default
   source:
