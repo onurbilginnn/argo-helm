@@ -7,7 +7,7 @@ spec:
   source:
     repoURL: https://github.com/onurbilginnn/argo-helm.git
     targetRevision: master
-    path: "/charts/"
+    path: ./charts/
     helm:
       values: |
         replicaCount: 2
