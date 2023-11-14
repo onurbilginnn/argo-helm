@@ -17,9 +17,9 @@ spec:
           image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
           ports:
             - containerPort: 8080
-      env:
-        - name: "PORT"
-          value: "3000"
+          env:
+          - name: "PORT"
+            value: "3000"
         #     secretKeyRef:
         #       key:  port
         #       name: {{ .Release.Name }}-auth
