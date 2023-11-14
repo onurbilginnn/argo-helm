@@ -81,11 +81,3 @@ tolerations: []
 
 affinity: {}
 
-port: 3000
-dbUser: root
-databasePassword: password
-dbHost: administrator
-database: postgresql
-dbPort: 5432
-nodeEnv: production
-
