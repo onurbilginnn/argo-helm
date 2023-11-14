@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: onurbilginnn/node-food-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "prod"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -80,3 +80,12 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+port: 3000
+dbUser: root
+databasePassword: password
+dbHost: administrator
+database: postgresql
+dbPort: 5432
+nodeEnv: production
+
